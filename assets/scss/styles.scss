@@ -1,3 +1,43 @@
+@font-face {
+    font-family: Stylish;
+    font-style: normal;
+    src: url("/fonts/Stylish-Regular.woff2" ) format('woff2'),
+         url("/fonts/Stylish-Regular.woff") format('woff');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Averia Libre";
+    font-style: normal;
+    src: url("/fonts/AveriaLibre-Light.woff2") format("woff2"),
+         url("/fonts/AveriaLibre-Light.woff") format("woff");
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "Averia Libre";
+    font-style: normal;
+    src: url("/fonts/AveriaLibre-Regular.woff2") format("woff2"),
+         url("/fonts/AveriaLibre-Regular.woff") format("woff");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Averia Libre";
+    font-style: normal;
+    src: url("/fonts/AveriaLibre-Bold.woff2") format("woff2"),
+         url("/fonts/AveriaLibre-Bold.woff") format("woff");
+    font-weight: 700;
+}
+
+// @font-face {
+//     font-family: "Bricolage Grotesque";
+//     font-style: normal;
+//     src: url("/fonts/BricolageGrotesque-Variable.woff2") format("woff2"),
+//          url("/fonts/BricolageGrotesque-Variable.woff") format("woff");
+//     font-weight: 400;
+// }
+
 *, :after, :before {
     box-sizing: border-box;
     padding: 0;
@@ -323,4 +363,13 @@ th, td {
 
 th {
     background-color: #f2f2f2;
+
+.hero-text {
+    font-family: Stylish;
+    font-size: 3em;
+}
+
+.hero-text-bold {
+    font-family: "Averia Libre";
+    font-size: 1.25em;
 }
