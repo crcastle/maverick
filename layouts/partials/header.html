@@ -1,7 +1,7 @@
 {{ $menuLength := len .Site.Menus.main }}
 <header>
   <p style="padding: 0;margin: 0;">
-    <a href="{{ .Site.BaseURL }}">
+    <a href="{{ relURL "/" }}">
       <b>{{ .Site.Title }}</b>
       <span class="text-stone-500 animate-blink">▮</span>
     </a>
