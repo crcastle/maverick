@@ -391,6 +391,14 @@ footer {
     }
 }
 
+a:has(> svg.icon) {
+    text-decoration: none;
+}
+
+svg.icon {
+    vertical-align: -4px;
+}
+
 .hero-text {
     font-family: Stylish;
     font-size: 3em;
