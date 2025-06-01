@@ -30,6 +30,20 @@
     font-weight: 700;
 }
 
+@font-face {
+  font-family: "fallback for Averia Libre";
+  src: local(Tahoma);
+  size-adjust: 101%;
+  descent-override: 10%;
+}
+
+@font-face {
+  font-family: "fallback for Stylish";
+  src: local(Verdana);
+  size-adjust: 77%;
+  descent-override: 10%;
+}
+
 // @font-face {
 //     font-family: "Bricolage Grotesque";
 //     font-style: normal;
@@ -400,11 +414,11 @@ svg.icon {
 }
 
 .hero-text {
-    font-family: Stylish;
+    font-family: Stylish, "fallback for Stylish";
     font-size: 3em;
 }
 
 .hero-text-bold {
-    font-family: "Averia Libre";
+    font-family: "Averia Libre", "fallback for Averia Libre";
     font-size: 1.25em;
 }
